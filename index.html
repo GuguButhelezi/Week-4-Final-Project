@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/6c67cc85df.js" crossorigin="anonymous"></script>
+	<script src="index.js" defer></script>
+
+	<title>JS Week 4 Project</title>
+	https://gugubuthelezi.github.io/RSA-Library/
+</head>
+<body>
+	<section id="landing__page">
+		<nav>
+			<figure>
+				<img src="./assets/undraw_home_cinema_l7yl.svg" class="nav__img">
+			</figure>
+			
+		</nav>
+		<header class="row">
+			<h1 class="header__title">
+				The <span class="text__color">movie website</span> where all the Gs hang out<br>Find your <span class="text__color">favourite movies</span> 
+			</h1>
+			<form action="scan.html" onsubmit="landing__scan(event)">
+				<input class="form__scan" type="text" placeholder="Search by title" name="search" required>
+				<button class="form__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+			</form>
+			<h2 class="header__feature"><span class="text__color">Monthly Top 6</span>
+			</h2>
+			<div class="loading">
+				<i class="fas fa-spinner"></i>
+			</div>
+			
+			<div class="movie-list">
+				
+			</div>
+			</div>
+		</header>
+	</section>
+</body>
+</html>

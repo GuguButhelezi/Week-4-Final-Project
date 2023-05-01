@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/6c67cc85df.js" crossorigin="anonymous"></script>
+<script src="movies.js" defer></script>
+
+	<title>Final JS Project</title>
+</head>
+<body>
+	<section id="scan">
+		<nav>
+			<figure>
+				<img src="./assets/undraw_home_cinema_l7yl.svg" class="nav__img">
+			</figure>
+			<ul class="nav__link--list">
+				<li>
+					<a href="index.html" class="
+					nav__link">
+						Home</a>
+				</li>
+				
+			</ul>
+		</nav>
+		<div class="row">
+			<div class="scan__container">
+				<form action="none" onsubmit="scan(event)">
+					<input class="form__scan" type="text" placeholder="Search by title" name="search" required>
+					<button class="form__button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+				</form>
+			</div>
+			<div class="movie-list">
+				<div class="loading">
+					<i class="fas fa-spinner"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
